@@ -110,3 +110,8 @@ Experiment No. 25 : A palindrome is a string of character that‘s the same forw
                     b) To check whether given string is palindrome or not
 
 
+GroupD_Practical26(C++) :
+Experiment No. 26 : In any language program mostly syntax error occurs due to unbalancing delimiter such as (),{},[]. 
+                    Write C++ program using stack to check whether given expression is well parenthesized or not.
+                    
+                    
