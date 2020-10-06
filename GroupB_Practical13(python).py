@@ -1,5 +1,5 @@
 '''
-This program is Written by PARTH REWOO
+
 
 Experiment No. 13 : Write a python program to maintain club members, sort on roll numbers in ascending order.
                     Write function “Ternary_Search” to search whether particular student is member of club or not.
@@ -142,4 +142,4 @@ while flag == 1:
 
 #<-------------------------------------END OF PROGRAM------------------------------------------>
 
-# This Program is Written By PARTH REWOO
+
