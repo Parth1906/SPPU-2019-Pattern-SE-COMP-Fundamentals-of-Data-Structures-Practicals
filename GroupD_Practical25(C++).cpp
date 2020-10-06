@@ -1,6 +1,6 @@
 
 /*
-This program is created by Parth Rewoo
+
 
 A palindrome is a string of character that‘s the same forward and backward. Typically, punctuation, capitalization, 
 and spaces are ignored. For example, “Poor Dan is in a droop” is a palindrome, as can be seen by examining the characters
@@ -132,4 +132,3 @@ int main()
 }
 
 
-This program is created by Parth Rewoo
