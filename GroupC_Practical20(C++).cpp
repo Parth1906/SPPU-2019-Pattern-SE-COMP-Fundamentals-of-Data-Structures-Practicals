@@ -1,6 +1,5 @@
 /*
 
-This program is created by PARTH REWOO
 
 The ticket booking system of Cinemax theater has to
 be implemented using C++ program.
@@ -254,4 +253,4 @@ return 0;
 }
 
 
-This program is created by PARTH REWOO
+
