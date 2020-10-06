@@ -1,6 +1,5 @@
 /*
-
-This program is created by PARTH REWOO 
+ 
 
 Department of Computer Engineering has student's club named
 'Pinnacle Club'. Students of Second, third and final year of
@@ -18,6 +17,7 @@ d) Display list in reverse order using recursion
 e) Two linked lists exists for two divisions. Concatenate two
 lists
 */
+
 # include<stdio.h>
 # include <iostream>
 # include<string>
@@ -255,8 +255,7 @@ else
 {
 cout << "\nEnter PRN No. of member to be deleted : ";
 cin >> no;
-t=start->next; // t=start if we have to delete
-precident also..start->next is first member
+t=start->next; // t=start if we have to delete president also..start->next is first member
 while (t->next != NULL)
 {
 if (t->prn == no)
@@ -272,12 +271,10 @@ if (flag == 1)
 prev->next=t->next;
 t->next=NULL;
 delete t;
-cout << "\nMember with PRN No: " << no << " is
-deleted.";
+cout << "\nMember with PRN No: " << no << " is deleted.";
 }
 else
-cout << "\nMember not found in List./President or
-Secretary cannot be deleted.";
+cout << "\nMember not found in List./President or Secretary cannot be deleted.";
 }
 }
 void list::
@@ -393,8 +390,7 @@ choice, selectList;
 list
 l1, l2;
 l = & l1;
-X: cout << "\nSelect List\n1.List 1\n2.List
-2\nEnter choice : ";
+X: cout << "\nSelect List\n1.List 1\n2.List 2\nEnter choice : ";
 
 cin >> selectList;
 if (selectList == 1)
@@ -415,14 +411,9 @@ X;
 do
 {
 
-cout << "\n1. Create\n2. Insert
-President\n3. Insert secretary\n4. Insert after
-position(member)\n5. Display list"
-<< "\n6. Delete President\n7.
-Delete Secretary\n8. Delete Member\n9. Find total No. of
-members\n10. Sort list\n11. Reselect List"
-<< "\n12. Combine lists\n13.
-Reverse Display\n0. Exit\nEnter your choice :\t";
+cout << "\n1. Create\n2. Insert President\n3. Insert secretary\n4. Insert after position(member)\n";
+cout<<"5. Display list\n6. Delete President\n7.Delete Secretary\n8. Delete Member\n9. Find total No. of members\n10. Sort list\n11. Reselect List";
+cout<< "\n12. Combine lists\n13.Reverse Display\n0. Exit\nEnter your choice :\t";
 cin >> choice;
 switch(choice)
 
@@ -463,8 +454,7 @@ case
 
 break;
 case
-9: cout << "\nTotal members(including
-President & Secretary) : " << l->computeTotal();
+9: cout << "\nTotal members(including President & Secretary) : " << l->computeTotal();
 break;
 case
 10: l->sortList();
@@ -489,10 +479,8 @@ cout << "Wrong choice";
 }
 
 }while (choice != 0);
-cout << "\n=============== GOOD BYE
-===============\n";
+cout << "\n=============== GOOD BYE ===============\n";
 return 0;
 
 }
 
-This program is created by PARTH REWOO
