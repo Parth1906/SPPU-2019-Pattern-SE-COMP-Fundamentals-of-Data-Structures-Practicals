@@ -1,3 +1,13 @@
+'''
+This program is created by ATHARVA PAWAR
+
+Experiment No. 9 : Write a Python Program to compute following computation on matrices :
+                   a)Addition of two matrices
+                   b)Subtraction of two matrices
+                   c)Multiplication of two matrices
+                   d)Transpose of a matix
+'''
+
 import numpy
 
 # initializing matrices
@@ -20,3 +30,6 @@ print (numpy.dot(x,y))
 # using "T" to transpose the matrix
 print("The transpose of given matrix is : ")
 print(x.T)
+
+
+# Created by ATHARVA PAWAR
