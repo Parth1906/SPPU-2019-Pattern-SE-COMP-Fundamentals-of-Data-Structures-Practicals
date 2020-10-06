@@ -68,12 +68,10 @@ void cinemax::display()
 node* temp;
 temp=head;
 int count=0;
-cout<<"\n------------------------------------
-------------------------------------------------\n";
+cout<<"\n------------------------------------------------------------------------------------\n";
 cout<<" Screen
 this way \n";
-cout<<"--------------------------------------
-----------------------------------------------\n";
+cout<<"------------------------------------------------------------------------------------\n";
 while(temp->next!=head)
 {
 if(temp->seat/10==0)
@@ -110,8 +108,7 @@ cout<<"Enter your ID number\n";
 cin>>y;
 if(x<1||x>70)
 {
-cout<<"Enter correct seat number to book (1-
-70)\n";
+cout<<"Enter correct seat number to book (1-70)\n";
 goto label;
 }
 node *temp;
@@ -142,8 +139,7 @@ cout<<"Enter you ID\n";
 cin>>y;
 if(x<1||x>70)
 {
-cout<<"Enter correct seat number to cancel
-(1-70)\n";
+cout<<"Enter correct seat number to cancel (1-70)\n";
 goto label1;
 }
 node *temp;
@@ -166,8 +162,7 @@ cout<<"Seat Cancelled!\n";
 }
 
 else
-cout<<"Wrong User ID !!! Seat cannot be
-cancelled!!!\n";
+cout<<"Wrong User ID !!! Seat cannot be cancelled!!!\n";
 }
 }
 void cinemax::avail()
@@ -177,12 +172,9 @@ node* temp;
 temp=head;
 int count=0;
 cout<<"\n\n\n\n";
-cout<<"\n-------------------------------------
------------------------------------------------\n";
-cout<<" Screen
-this way \n";
-cout<<"--------------------------------------
-----------------------------------------------\n";
+cout<<"\n------------------------------------------------------------------------------------\n";
+cout<<" Screen this way \n";
+cout<<"------------------------------------------------------------------------------------\n";
 while(temp->next!=head)
 {
 {
@@ -223,15 +215,10 @@ int ch;
 char c='y';
 while(c=='y')
 { obj.display();
-cout<<"\n
-*********************************************\n";
-cout<<" CINEMAX MOVIE THEATRE
-\n";
-cout<<"
-*********************************************\n";
-cout<<"\nEnter Choice\n1.Current Seat
-Status\n2.Book Seat \n3.Available Seat\n4.Cancel
-Seat\n";
+cout<<"\n*********************************************\n";
+cout<<" CINEMAX MOVIE THEATRE\n";
+cout<<"*********************************************\n";
+cout<<"\nEnter Choice\n1.Current SeatStatus\n2.Book Seat \n3.Available Seat\n4.CancelSeat\n";
 cin>>ch;
 switch(ch)
 {
@@ -245,8 +232,7 @@ case 4: obj.cancel();
 break;
 default: cout<<"Wrong choice input\n";
 }
-cout<<"\nDo you want to perform any other
-operation : (y/n)\n";
+cout<<"\nDo you want to perform any other operation : (y/n)\n";
 cin>>c;
 }
 return 0;
