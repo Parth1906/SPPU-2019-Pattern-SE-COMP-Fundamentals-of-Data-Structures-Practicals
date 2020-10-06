@@ -1,5 +1,4 @@
 '''
-This program is written by PARTH REWOO
 
 Experiment No. 16 : Write a python program to store first year percentage of students in array.
                     Write function for sorting array of floating point numbers in ascending order using
@@ -119,5 +118,5 @@ while flag == 1:
 #<-----------------------------------------------END OF PROGRAM-------------------------------------------------------->
 
 
-#This program is written by PARTH REWOO
+
 
