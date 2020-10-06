@@ -1,5 +1,5 @@
 '''
-CREATED BY PARTH REWOO
+
 Experiment Number 2 : Write a python program to store marks stored in subject "Fundamentals of Data Structure" by
                          N students in the class. Write functions to compute following:
                          1. The average score of the class.
@@ -152,4 +152,4 @@ while flag==1:
 #<---------------------------------------------END OF PROGRAM--------------------------------------->
 
 
-# CREATED BY PARTH REWOO
+
