@@ -1,5 +1,5 @@
 '''
-CREATED BY PARTH REWOO
+
 Experiment No. 7 : Write a python program for MAGIC SQUARE.
                    A magic square is an n*n matrix of the integers 1 to (n^2) such that the sum of each row,
                    column and diagonalis the same.
@@ -95,4 +95,4 @@ while flag==1:
 
 #<------------------------------------------ END OF PROGRAM ----------------------------------------->
 
-#CREATED BY PARTH REWOO
+
