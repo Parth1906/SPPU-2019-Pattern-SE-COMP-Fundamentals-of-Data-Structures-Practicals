@@ -1,5 +1,5 @@
 '''
-This program is created by PARTH REWOO
+
 
 Experiment No. 1 : In a second year computer engineering class, group A students play cricket, group B students play
                    badminton and group C students play football.
@@ -223,6 +223,6 @@ while flag==1:
 
 
 
-# CREATED BY PARTH REWOO
+
 
 
