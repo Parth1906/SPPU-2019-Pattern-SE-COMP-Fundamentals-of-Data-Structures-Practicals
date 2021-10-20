@@ -103,8 +103,8 @@ while flag == 1:
         print("Percentages of Students after performing Quick Sort : ")
         sorted_percentage = Quick_Sort(unsorted_percentage,0,len(unsorted_percentage)-1)
         print_percentage(sorted_percentage)
-        a = input("Do you want to display the Top 5 Percentages of Students (yes/no) : ")
-        if a == 'yes':
+        a = input("Do you want to display the Top 5 Percentages of Students (Y/N) : ")
+        if a == 'Y':
             display_top_five(sorted_percentage)
 
     elif ch == 4:
