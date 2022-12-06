@@ -1,6 +1,4 @@
 /*
-
-
 The ticket booking system of Cinemax theater has to
 be implemented using C++ program.
 There are 10 rows and 7 seats in each row. Doubly
@@ -69,8 +67,7 @@ node* temp;
 temp=head;
 int count=0;
 cout<<"\n------------------------------------------------------------------------------------\n";
-cout<<" Screen
-this way \n";
+cout<<" Screen this way \n";
 cout<<"------------------------------------------------------------------------------------\n";
 while(temp->next!=head)
 {
@@ -237,6 +234,3 @@ cin>>c;
 }
 return 0;
 }
-
-
-
