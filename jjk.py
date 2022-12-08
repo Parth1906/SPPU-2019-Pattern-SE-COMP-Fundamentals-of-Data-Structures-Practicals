@@ -7,6 +7,8 @@ c) To check whether given string is palindrome or not
 d) To display the index of first apperance of the substring
 e) To count the occurance of each string
 '''
+
+#This will return longest length
 def length(sett, length):
     longest=""
     for i in range(0,length):
@@ -15,8 +17,11 @@ def length(sett, length):
         print(longest)
         
         
+#Returns the frequency of particular char
 def occurance(sett, length):
     return 0
+
+# This will check Palindrome
 def check(string, length):
     palin=[]
     for i in range(length, 0, -1):
@@ -27,8 +32,16 @@ def check(string, length):
     else:
         print("It is not a palindrome")
         
+# It will return the index of substring
 def indexcheck(sett, length):
-    return 0
+    substring= input("Enter a substring")
+    for i in range(0,length):
+        if sett[i] == substring:
+            print(i)
+            return 0
+
+
+#Count occurance of each string
 def count(sett, length):
     return 0
 
