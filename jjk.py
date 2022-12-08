@@ -17,8 +17,16 @@ def length(sett, length):
         
 def occurance(sett, length):
     return 0
-def check(sett, length):
-    return 0
+def check(string, length):
+    palin=[]
+    for i in range(length, 0, -1):
+        palin.append(string[i])
+    string2= " ".join(palin)
+    if string == string2:
+        print("It is palindrome")
+    else:
+        print("It is not a palindrome")
+        
 def indexcheck(sett, length):
     return 0
 def count(sett, length):
