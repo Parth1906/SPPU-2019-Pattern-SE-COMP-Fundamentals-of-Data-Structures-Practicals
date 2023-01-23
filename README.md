@@ -13,7 +13,7 @@ Experiment No. 1 : In a second year computer engineering class, group A students
 
 
 GroupA_Practical2(python) :
-Experiment Number 2 : Write a python program to store marks stored in subject "Fundamentals of Data Structure" by
+Experiment Number 2 : Write a python program to store marks scored in subject "Fundamentals of Data Structure" by
                          N students in the class. Write functions to compute following:
                          1. The average score of the class.
                          2. Highest score and lowest score of the class.
